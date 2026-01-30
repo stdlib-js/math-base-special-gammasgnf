@@ -62,6 +62,11 @@ The [gamma function][@stdlib/math/base/special/gamma] can be computed as the pro
 To use in Observable,
 
 ```javascript
+gammasgnf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammasgnf@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-gammasgnf/tags). For example,
+
+```javascript
 gammasgnf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammasgnf@v0.1.0-umd/browser.js' )
 ```
 
@@ -74,7 +79,7 @@ var gammasgnf = require( 'path/to/vendor/umd/math-base-special-gammasgnf/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammasgnf@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammasgnf@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -131,7 +136,7 @@ v = gammasgnf( NaN );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammasgnf@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammasgnf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 

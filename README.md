@@ -60,7 +60,7 @@ The [gamma function][@stdlib/math/base/special/gamma] can be computed as the pro
 ## Usage
 
 ```javascript
-import gammasgnf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammasgnf@deno/mod.js';
+import gammasgnf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammasgnf@v0.1.1-deno/mod.js';
 ```
 
 #### gammasgnf( x )
@@ -104,7 +104,7 @@ v = gammasgnf( NaN );
 ```javascript
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
-import gammasgnf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammasgnf@deno/mod.js';
+import gammasgnf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammasgnf@v0.1.1-deno/mod.js';
 
 var x = uniform( 100, -10.0, 10.0, {
     'dtype': 'float32'

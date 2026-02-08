@@ -60,7 +60,7 @@ The [gamma function][@stdlib/math/base/special/gamma] can be computed as the pro
 ## Usage
 
 ```javascript
-import gammasgnf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammasgnf@esm/index.mjs';
+import gammasgnf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammasgnf@v0.1.1-esm/index.mjs';
 ```
 
 #### gammasgnf( x )
@@ -109,7 +109,7 @@ v = gammasgnf( NaN );
 
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
-import gammasgnf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammasgnf@esm/index.mjs';
+import gammasgnf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-gammasgnf@v0.1.1-esm/index.mjs';
 
 var x = uniform( 100, -10.0, 10.0, {
     'dtype': 'float32'

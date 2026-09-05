@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-28)
+## Unreleased (2026-09-05)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`b60adcb`](https://github.com/stdlib-js/stdlib/commit/b60adcb2240b3cdec5090f460856ea27d672fb91) - **refactor:** use `constants/float32/nan` in `math/base/special/gammasgnf` [(#15013)](https://github.com/stdlib-js/stdlib/pull/15013) _(by Abdelrahim Abdelazim)_
 -   [`a9ded39`](https://github.com/stdlib-js/stdlib/commit/a9ded39203d2cbc9ff79b0cc96f0fbd2a962b36f) - **chore:** clean-up [(#12446)](https://github.com/stdlib-js/stdlib/pull/12446) _(by Philipp Burckhardt, Athan Reines)_
 -   [`59c9969`](https://github.com/stdlib-js/stdlib/commit/59c9969a580e74428505ba91634607f110ec71bf) - **bench:** refactor to use string interpolation in `math/base/special` [(#11388)](https://github.com/stdlib-js/stdlib/pull/11388) _(by Karan Anand)_
 -   [`abedf58`](https://github.com/stdlib-js/stdlib/commit/abedf5837f3b62af132cc2e9a8dac5dabc3939bc) - **docs:** fix typo in section closing comments in `math/base/special/gammasgn*` READMEs _(by Philipp Burckhardt)_
@@ -26,8 +27,9 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Abdelrahim Abdelazim
 -   Athan Reines
 -   Karan Anand
 -   Philipp Burckhardt
